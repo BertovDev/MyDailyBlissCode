@@ -1,5 +1,5 @@
 import React from "react";
-import { Linkedin, Twitter, Github } from "react-bootstrap-icons";
+import { Linkedin, Twitter, Github, Spotify } from "react-bootstrap-icons";
 
 export default function Home() {
   return (
@@ -16,13 +16,31 @@ export default function Home() {
       <div className="w-full px-8">
         <ul className="flex justify-around items-center">
           <li className="cursor-pointer">
-            <Twitter size={32} />
+            <a href="https://twitter.com/tongenjs" target="_blank">
+              <Twitter size={32} />
+            </a>
           </li>
           <li className="cursor-pointer">
-            <Linkedin size={32} />
+            <a
+              href="https://linkedin.com/in/bautista-berto"
+              target="bl
+            "
+            >
+              <Linkedin size={32} />
+            </a>
           </li>
           <li className="cursor-pointer">
-            <Github size={32} />
+            <a href="https://github.com/BertovDev" target="_blank">
+              <Github size={32} />
+            </a>
+          </li>
+          <li className="cursor-pointer">
+            <a
+              target="_blank"
+              href="https://open.spotify.com/user/bautiberto?si=5104d27df6a6463b"
+            >
+              <Spotify size={32} />
+            </a>
           </li>
         </ul>
       </div>
