@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/Components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -10,6 +14,10 @@ module.exports = {
           100: "#241265",
           200: "#0B0800",
         },
+      },
+      fontFamily: {
+        darkerGrote: ["Darker Grotesque", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

@@ -7,8 +7,11 @@ function chooseImage() {
 
 export default function Header() {
   return (
-    <div className="flex w-full">
-      <img className="ml-3 xs:ml-auto" src={chooseImage()} alt="" />
+    <div className="flex flex-col ml-3 w-full">
+      <img className=" xs:ml-auto" src={chooseImage()} alt="" />
+      <p className="text-md tracking-tighter underline underline-offset-2 font-mono text-primary">
+        I know is trash but fun to me I guess
+      </p>
     </div>
   );
 }
