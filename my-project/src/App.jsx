@@ -5,7 +5,7 @@ import Home from "./Components/Home";
 
 function App() {
   return (
-    <div className="text-white box-border bg-black min-h-screen w-full overflow-x-hidden px-2 py-2">
+    <div className="text-white box-border h-screen bg-black w-full overflow-x-hidden px-2 py-2">
       <Header />
       <Home />
     </div>

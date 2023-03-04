@@ -3,14 +3,16 @@ import { Linkedin, Twitter, Github, Spotify } from "react-bootstrap-icons";
 
 export default function Home() {
   return (
-    <section className="mt-6 ml-px">
-      <h1 className="text-8xl font-black mb-2 font-darkerGrote">SOTD</h1>
-      <p className="opacity-80 tracking-normal ml-2 text-md font-mono">
+    <section className="mt-6 ml-px my-section">
+      <h1 className="text-8xl md:text-9xl font-black mb-2 font-darkerGrote">
+        SOTD
+      </h1>
+      <p className="opacity-80 tracking-normal ml-2 text-md font-mono md:text-xl">
         Song Of The Day
         <span className="pl-1 cursor-pointer">🎵</span>
       </p>
-      <div className="bg-primary-100 my-5 h-96 rounded-xl"></div>
-      <h2 className="text-2xl my-10 tracking-wide uppercase text-center font-bold font-darkerGrote">
+      <div className="bg-primary-100 my-5 h-96 md:h-[32rem] rounded-xl"></div>
+      <h2 className="text-2xl my-10 tracking-wide uppercase text-center font-bold font-darkerGrote md:text-3xl">
         still in development...
       </h2>
       <div className="w-full px-8">

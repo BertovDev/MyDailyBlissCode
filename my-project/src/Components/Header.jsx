@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div className="flex flex-col ml-3 w-full">
       <img className=" xs:ml-auto" src={chooseImage()} alt="" />
-      <p className="text-md tracking-tighter underline underline-offset-2 font-mono text-primary">
+      <p className="text-md tracking-tighter underline underline-offset-2 font-mono text-primary md:text-xl">
         I know is trash but fun to me I guess
       </p>
     </div>
