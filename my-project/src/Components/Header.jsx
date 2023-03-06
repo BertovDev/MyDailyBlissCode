@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 function chooseImage() {
-  if (window.innerWidth > 1024) return "./public/Component.svg";
-  return "./public/ComponentMobile.png";
+  if (window.innerWidth > 1024) return "./Component.svg";
+  return "./ComponentMobile.png";
 }
 
 export default function Header() {
