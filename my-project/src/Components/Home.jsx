@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Linkedin, Twitter, Github, Spotify } from "react-bootstrap-icons";
 
 export default function Home() {
+  const date = new Date();
+  const random = Math.floor(Math.random() * 3);
+  console.log(random);
   const embededUrlCode = "bCDk8OSW3ks";
   const monthNames = [
     "January",
@@ -18,7 +21,6 @@ export default function Home() {
     "December",
   ];
 
-  const date = new Date();
   const fullDate =
     monthNames[date.getMonth()] +
     " " +
@@ -40,9 +42,11 @@ export default function Home() {
           <span className="pl-2 cursor-pointer">🎵 , </span>
           {fullDate}
         </p>
-
-        <p className="opacity-70 tracking-normal ml-2 text-md font-mono md:text-xl lg:text-2xl hidden lg:inline">
-          Beta Version 1.0.0
+        <p className="text-md ml-2 tracking-wide font-mono text-primary lg:text-2xl lg:inline-block">
+          Daily Reminder:{" "}
+          <span className="underline underline-offset-4 decoration-primary-50 cursor-progress">
+            Be Nice
+          </span>
         </p>
       </div>
       <div
@@ -59,7 +63,7 @@ export default function Home() {
           allowfullscreen
         ></iframe>
       </div>
-      <h2 className="text-2xl my-8 tracking-wide uppercase text-center font-bold font-darkerGrote md:text-3xl md:mt-1 lg:my-10">
+      <h2 className="text-2xl my-8 tracking-wide uppercase text-center font-bold font-darkerGrote md:text-3xl md:mt-1 lg:my-5">
         still in development...
       </h2>
       <div className="w-full px-8 md:px-14 lg:px-28 lg:mt-10">
