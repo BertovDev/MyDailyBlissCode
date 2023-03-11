@@ -32,13 +32,13 @@ export default function SOTDHeader() {
       >
         SOTD
       </h1>
-      <div className="lg:flex lg:flex-row lg:gap-2 lg:justify-between">
+      <div className="lg:flex lg:flex-row lg:gap-2 ">
         <p className="opacity-80 tracking-normal ml-2 text-md font-mono md:text-xl lg:text-2xl">
           Song Of The Day
           <div class="group relative inline-block">
             <span className="pl-2 cursor-pointer">🎵 ,</span>
             <span
-              class="group-hover:opacity-100 group-active:opacity-100 transition-opacity bg-primary-50 px-1 text-sm text-primary-200 font-mono rounded-md absolute
+              class="hidden lg:inline group-hover:opacity-100 group-active:opacity-100 transition-opacity bg-primary-50 px-1 text-sm text-primary-200 font-mono rounded-md absolute
               -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto w-52 left-8"
             >
               Daily Reminder:{" "}
@@ -47,12 +47,18 @@ export default function SOTDHeader() {
           </div>
           {fullDate}
         </p>
-        {/* <p className="text-md ml-2 tracking-wide font-mono text-primary lg:text-2xl lg:inline-block">
-          Daily Reminder:{" "}
-          <span className="underline underline-offset-4 decoration-primary-50 cursor-progress">
-            Be Nice
+        <div className="group relative inline-block lg:hidden">
+          <p className="text-md ml-2 tracking-wide font-mono text-primary lg:text-2xl lg:inline-block underline underline-offset-2 cursor-pointer">
+            Touch me
+          </p>
+          <span
+            class="group-hover:opacity-100 group-active:opacity-100 transition-opacity bg-primary-50 px-1 text-sm text-primary-200 font-mono rounded-md absolute
+              -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto w-52 left-52 bottom-1"
+          >
+            Daily Reminder:{" "}
+            <span className="underline underline-offset-2">Be Nice</span>
           </span>
-        </p> */}
+        </div>
       </div>
     </div>
   );
