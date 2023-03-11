@@ -4,10 +4,10 @@ import { Linkedin, Twitter, Github, Spotify } from "react-bootstrap-icons";
 export default function SOTDFooter() {
   return (
     <>
-      <h2 className="text-2xl my-8 tracking-wide uppercase text-center font-bold font-darkerGrote md:text-3xl md:mt-1 lg:my-5">
+      <h2 className="text-2xl my-8 tracking-wide uppercase text-center font-bold font-darkerGrote md:text-3xl md:mt-1 lg:mb-1">
         still in development...
       </h2>
-      <div className="w-full px-8 md:px-14 lg:px-28 lg:mt-10">
+      <div className="w-full px-8 md:px-14 lg:px-28 lg:my-3">
         <ul className="flex justify-around items-center lg:justify-center lg:gap-20">
           <li className="cursor-pointer">
             <a href="https://twitter.com/tongenjs" target="_blank">

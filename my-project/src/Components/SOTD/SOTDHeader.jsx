@@ -25,10 +25,10 @@ export default function SOTDHeader() {
     " " +
     date.getFullYear();
   return (
-    <>
+    <div>
       <h1
-        className="text-8xl md:text-9xl font-black mb-2 font-darkerGrote
-        lg:text-[12rem] lg:mb-0 lg:tracking-wide"
+        className="text-8xl font-black mb-2 font-darkerGrote md:text-8xl
+        lg:text-[9rem] lg:mb-0 lg:tracking-wide"
       >
         SOTD
       </h1>
@@ -38,13 +38,13 @@ export default function SOTDHeader() {
           <span className="pl-2 cursor-pointer">🎵 , </span>
           {fullDate}
         </p>
-        <p className="text-md ml-2 tracking-wide font-mono text-primary lg:text-2xl lg:inline-block">
+        {/* <p className="text-md ml-2 tracking-wide font-mono text-primary lg:text-2xl lg:inline-block">
           Daily Reminder:{" "}
           <span className="underline underline-offset-4 decoration-primary-50 cursor-progress">
             Be Nice
           </span>
-        </p>
+        </p> */}
       </div>
-    </>
+    </div>
   );
 }
