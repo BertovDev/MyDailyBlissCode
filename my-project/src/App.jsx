@@ -7,7 +7,7 @@ function App() {
   return (
     <div
       className="text-white box-border h-screen bg-black w-full overflow-x-hidden p-2
-    flex flex-col lg:flex-row lg:overflow-y-hidden lg:px-4 lg:pr-6"
+    flex flex-col lg:flex-row lg:px-4 lg:pr-6"
     >
       <Header />
       <Home />

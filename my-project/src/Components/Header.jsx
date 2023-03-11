@@ -23,8 +23,8 @@ export default function Header() {
   return (
     <div className="flex flex-col ml-3 w-full lg:w-1/6 lg:h-full lg:justify-start lg:items-center gap-0">
       <img className="xs:ml-auto h-full" src={img} />
-      <p className="text-md tracking-tighter underline underline-offset-2 font-mono text-primary md:text-xl lg:text-center lg:text-2xl">
-        I know is trash but fun to me I guess
+      <p className="cursor-pointer text-md opacity-90 tracking-tighter underline underline-offset-2 font-mono text-primary md:text-xl lg:text-center lg:text-2xl hover:opacity-100 active:opacity-100 transition-all">
+        This may be trash but fun to me
       </p>
     </div>
   );
