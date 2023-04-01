@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function YoutubeEmbed() {
-  const embededUrlCode = "bCDk8OSW3ks";
+  const embededUrlCode = "7KNoeWe-3Zo";
 
   return (
     <div
