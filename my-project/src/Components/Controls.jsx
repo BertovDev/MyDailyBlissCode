@@ -28,13 +28,13 @@ export default function Controls() {
   }, []);
   return (
     <ul className="pr-5 py-5 my-auto text-base md:text-base  flex flex-row lg:flex-col items-center justify-center gap-x-6 md:gap-4 2xl:text-2xl lg:right-14">
-      <li onClick={() => showContent("SOTD")} className="border px-2 py-px cursor-pointer rounded-full bg-primary-100 hover:bg-white hover:text-primary-100 transition-all">
+      <li onClick={() => showContent("SOTD")} className="border px-2 py-px cursor-pointer rounded-full  hover:bg-white hover:text-primary-100 transition-all">
         1
       </li>
-      <li onClick={() => showContent("STUFF")} className="border px-2 py-px cursor-pointer rounded-full bg-primary-100 hover:bg-white hover:text-primary-100 transition-all">
+      <li onClick={() => showContent("STUFF")} className="border rounded-full px-2 py-px cursor-pointer hover:bg-white hover:text-primary-100 transition-all">
         2
       </li>
-      <li onClick={() => showContent("BENJI")} className="border px-2 py-px cursor-pointer rounded-full bg-primary-100 hover:bg-white hover:text-primary-100 transition-all">
+      <li onClick={() => showContent("BENJI")} className="border px-2 py-px cursor-pointer rounded-full  hover:bg-white hover:text-primary-100 transition-all">
         3
       </li>
     </ul>

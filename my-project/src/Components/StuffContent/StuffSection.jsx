@@ -27,7 +27,7 @@ const stuffArray = [
 
 export default function StuffSection() {
   return (
-    <section id="STUFF" className="flex-col md:items-start hidden">
+    <section id="STUFF" className="flex-col p-4 md:py-10 hidden">
       <div className="flex flex-col gap-y-3 pl-2 md:text-start mb-4">
         <h2 className="text-4xl md:text-7xl 2xl:text-8xl font-black font-darkerGrote underline underline-offset-8">Daily cool things</h2>
         <p className="text-base md:text-xl 2xl:text-3xl font-mono text-primary">A recopitalion of things that I find cool.</p>
