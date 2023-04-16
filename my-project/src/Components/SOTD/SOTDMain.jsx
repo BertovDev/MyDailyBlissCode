@@ -5,10 +5,9 @@ import YoutubeEmbed from "./YoutubeEmbed";
 
 export default function SOTDMain() {
   return (
-    <section className="flex-col h-full hidden" id="SOTD">
+    <section className="flex-col h-full hidden md:h-full" id="SOTD">
       <SOTDHeader />
       <YoutubeEmbed />
-      <SOTDFooter />
     </section>
   );
 }

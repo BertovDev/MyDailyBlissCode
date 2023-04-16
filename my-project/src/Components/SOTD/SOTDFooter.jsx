@@ -4,8 +4,8 @@ import { Linkedin, Twitter, Github, Spotify } from "react-bootstrap-icons";
 export default function SOTDFooter() {
   return (
     <>
-      <div className="px-8 w-full  md:px-14 lg:px-28 lg:my-6">
-        <ul className="flex h-32 mt-auto justify-around items-center lg:hidden lg:gap-20">
+      <div className="px-8 mt-10 w-full md:px-14 lg:px-28 lg:my-6">
+        <ul className="flex mt-auto justify-around items-center lg:hidden lg:gap-20">
           <li className="cursor-pointer">
             <a href="https://twitter.com/tongenjs" target="_blank">
               <Twitter size={32} />
