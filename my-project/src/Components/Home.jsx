@@ -1,14 +1,20 @@
-import React, { useEffect } from "react";
-import YoutubeEmbed from "./SOTD/YoutubeEmbed";
-import SOTDHeader from "./SOTD/SOTDHeader";
+import React, { useEffect, useState } from "react";
+import SOTDMain from "./SOTD/SOTDMain";
 import SOTDFooter from "./SOTD/SOTDFooter";
+import Controls from "./Controls";
+import StuffSection from "./StuffContent/StuffSection";
+import Benji from "./Benji";
 
 export default function Home() {
   return (
-    <section className="md:flex md:flex-col md:justify-center h-full mt-4 ml-px md:mt-3 lg:mt-0 lg:w-full">
-      <SOTDHeader />
-      <YoutubeEmbed />
-      <SOTDFooter />
-    </section>
+    <>
+      <main className=" md:flex h-full md:flex-col my-4 lg:my-0 ml-px md:mt-3 lg:w-full">
+        <SOTDMain />
+        <StuffSection />
+        <Benji />
+        {/* <SOTDFooter /> */}
+      </main>
+      <Controls />
+    </>
   );
 }
