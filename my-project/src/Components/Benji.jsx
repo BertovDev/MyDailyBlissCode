@@ -8,7 +8,7 @@ export default function Benji() {
         <div class="container px-10 py-8 mx-auto items-center">
         <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             <a href="#"
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg  col-span-2 md:col-span-1 bg-gray-100 shadow-lg md:h-80">
+                class="group relative flex h-48 items-end overflow-hidden rounded-lg  md:col-span-1 bg-gray-100 shadow-lg md:h-80">
                 <img src="Benji.png" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                 <div
@@ -19,8 +19,8 @@ export default function Benji() {
             </a>
 
             <a href="#"
-                class="group relative flex h-48 items-end overflow-hidden rounded-lg col-span-2 bg-white shadow-lg md:col-span-2 md:h-80">
-                <img src="Done.png" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-fill object-center transition duration-200 group-hover:scale-110" />
+                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-white shadow-lg md:col-span-2 md:h-80">
+                <img src="Done.png" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover md:object-fill object-center transition duration-200 group-hover:scale-110" />
 
                 <div
                     class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
